@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "fullname": "Budi Seto",
+      "username": "budilopjoko",
+      "email": "budi69joko@gmail.com",
+      "password": "buditolol",
+      "id": 1
+    },
+    {
+      "fullname": "Joko",
+      "username": "jokolopbudi",
+      "email": "joko69budi@gmail.com",
+      "password": "jokotolol",
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "transaction": [],
+  "products": [],
+  "carts": []
+}
