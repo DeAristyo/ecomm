@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { provider } from 'redux-thunk';
+import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import ReduxThunk from 'redux-thunk';
 import rootReducer from './Redux/reducers';
@@ -11,9 +11,9 @@ import rootReducer from './Redux/reducers';
 const store = createStore(rootReducer, applyMiddleware(ReduxThunk));
 
 ReactDOM.render(
-  <provider store={store}>
+  <Provider store={store}>
       <App/>
-  </provider>,
+  </Provider>,
   document.getElementById('root')
 );
 
